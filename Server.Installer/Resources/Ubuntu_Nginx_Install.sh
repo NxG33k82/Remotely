@@ -36,7 +36,7 @@ apt-get -y install software-properties-common
 apt-get -y install gnupg
 
 # Install .NET Core Runtime.
-wget -q https://packages.microsoft.com/config/ubuntu/$UbuntuVersion/packages-microsoft-prod.deb
+wget -q https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb
 dpkg -i packages-microsoft-prod.deb
 add-apt-repository universe
 apt-get update
